@@ -87,7 +87,7 @@ router.delete("/trainer/:trainerName", async (req, res, next) => {
 });
 
 /** ポケモンの追加 */
-process.env.NODE_TLS_REJECT_UNAUTHORIZED = 0; // Local開発環境でこれを追加しないとエラーが出る
+// process.env.NODE_TLS_REJECT_UNAUTHORIZED = 0; // Local開発環境でこれを追加しないとエラーが出る
 router.put(
 // router.post(
   "/trainer/:trainerName/pokemon/:pokemonName",
